@@ -1,9 +1,19 @@
 package com.kusaldilan.fot;
 
 public class Sensor {
+    @Override
+    public String toString() {
+        return "Sensors{" +
+                "name'" +name + '\'' +
+                ", value" + value + value +
+                '}';
+
+    }
+
     public Sensor(String name, double value) {
         this.name = name;
         this.value = value;
+
 
     }
 
@@ -13,6 +23,8 @@ public class Sensor {
 
     public Sensor() {
     }
+
+
 
     public Sensor(String name) {
         this.name = name;
